@@ -62,3 +62,14 @@ Thumbs.db
 outputs/
 logs/
 runs/
+
+# Large dataset files
+data/external/
+data/raw/
+*.tiff
+*.tif
+*.hd5
+*.ome.tiff
+
+# Keep processed/small data
+!data/processed/
